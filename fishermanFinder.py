@@ -18,7 +18,7 @@ import cv2 as cv
 
 #Map of python cape
 MAP_FILE ='cape_python.png'
-
+print("test map")
 
 #Search area constants as squares.
 ###NOTE: constants all caps
