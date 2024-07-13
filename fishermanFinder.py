@@ -182,6 +182,7 @@ def draw_menu(search_num):
     )
 
 def main ():
+    print("Start program output")
     app = Search('Cape_Python')
     app.draw_map(last_known=(160, 290))
     sailor_x, sailor_y = app.sailor_final_location(num_search_areas=3)
